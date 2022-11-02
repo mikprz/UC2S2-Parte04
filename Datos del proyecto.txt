@@ -1,0 +1,12 @@
+Integrantes
+Nombre del Estudiante 01:Prado Zuta Miguel Angel
+Git Hub: https://github.com/mikprz/UC2S2-Parte01.git
+
+Nombre del Estudiante 02: Rakauskas Purca Sebastian Alberto
+Git Hub: https://github.com/sbtnuwu/UC2S2-Parte02.git
+
+Nombre del Estudiante 03: Quispe Cancho Diego Alejandro
+Git Hub: https://github.com/DieGodV3/UC2S2-Parte03.git
+
+Nombre del Estudiante 04: Prado Zuta Miguel Angel
+Git Hub: https://github.com/mikprz/UC2S2-Parte04.git
