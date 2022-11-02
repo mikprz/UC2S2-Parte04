@@ -5,6 +5,9 @@ Created on Wed Nov  2 09:51:09 2022
 @author: Alumno
 """
 
+import listar
+import agregar
+
 print("Ingrese sus datos: \n")
 
 bandera = True
@@ -27,3 +30,26 @@ while bandera == True and contador < 2:
     else:
         print("Credenciales incorrectas, intente nuevamente\n")
         contador += 1
+
+
+
+opcion=input('\nseleccione una opcion: ')
+
+if opcion =='1':
+    listar.listarArchivo('nombre.txt','apellido.txt','dni.txt')
+elif opcion == "2":
+    nuevoDNI = input("Agrega el DNI: ")
+    nuevoDNI = "\n" + nuevoDNI
+    agregar.agregar("dni.txt",nuevoDNI)
+    nuevoNombre = input("Agrega el nombre: ")
+    nuevoNombre = "\n" + nuevoNombre
+    agregar.agregar("nombre.txt",nuevoNombre)
+    nuevoApellido = input("Agrega el apellido: ")
+    nuevoApellido = "\n" + nuevoApellido
+    agregar.agregar("apellido.txt",nuevoApellido)
+    print("\nNueva lista: \n")
+    listar.listarArchivo('nombre.txt','apellido.txt','dni.txt')
+else:
+    exit()
+
+
